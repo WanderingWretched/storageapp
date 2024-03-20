@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  postgres:
+    image: 'postgres:10'
+    container_name: 'storage-app-postgres'
+    environment:
+      - 'POSTGRES_USER=postgres'
+      - 'POSTGRES_HOST_AUTH_METHOD=trust'
+      - 'POSTGRES_DB=storageapp'
+  app:
+    build: ./
+    container_name: 'storage-app'
+    ports:
+      - 8080:8080
