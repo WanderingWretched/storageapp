@@ -9,6 +9,9 @@ import com.example.storageapp.domain.exceptions.ResourceNotFoundException;
 import java.util.List;
 import java.util.UUID;
 
+/**
+ * Interface with crud methods
+ */
 public interface ProductService {
 
     ProductEntity create(ProductEntity product) throws ResourceExistException, ResourceNotFoundException;

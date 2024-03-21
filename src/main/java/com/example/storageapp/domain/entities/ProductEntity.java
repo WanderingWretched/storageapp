@@ -16,6 +16,9 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+/**
+ * The Product class, which describes the product that is stored
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

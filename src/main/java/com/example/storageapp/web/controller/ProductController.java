@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.UUID;
 
-
+/**
+ * Controller, with CRUD methods. Needed to work with the ProductEntity class and operations with the class
+ */
 @RestController
 @RequestMapping("products")
 @RequiredArgsConstructor

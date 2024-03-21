@@ -13,11 +13,13 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
+/**
+ * Interface implementation with crud methods. Here is the main logic and interaction with the database
+ * */
+
 @Service
 public class ProductServiceImpl implements ProductService {
-
     private final ProductRepository productRepository;
-
 
     @Autowired
     ProductServiceImpl(ProductRepository productRepository) {
@@ -33,7 +35,6 @@ public class ProductServiceImpl implements ProductService {
             throw new ResourceExistException("Продукт с таким Article уже существует");
         }
     }
-
 
     @Override
     public boolean update(UUID productId, ProductEntity product) throws ResourceNotFoundException {

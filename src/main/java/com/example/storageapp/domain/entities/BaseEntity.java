@@ -7,6 +7,9 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDateTime;
 
+/**
+ * The base class from which other classes will inheri
+ */
 @Data
 @MappedSuperclass
 public abstract class BaseEntity {
