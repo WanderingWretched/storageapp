@@ -1,0 +1,194 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-03-21T20:27:20.016Z",
+  "__export_source": "insomnia.desktop.app:v2023.5.8",
+  "resources": [
+    {
+      "_id": "req_df500f6a195c48c08c5a406cba303ba3",
+      "parentId": "wrk_e4c497dd178348ff9d818d0ad182cb68",
+      "modified": 1709585139534,
+      "created": 1708551281298,
+      "url": "http://localhost:8080/products/a9d6316a-d50e-45e0-bde4-5fdcf2e7240f",
+      "name": "update product",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"test FFFFFFF\",\n\t\"article\": \"test\",\n\t\"description\": \"test\",\n\t\"category\": \"test\",\n\t\"price\": 10,\n\t\"count\": 12\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1708551281298,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_e4c497dd178348ff9d818d0ad182cb68",
+      "parentId": null,
+      "modified": 1706732536580,
+      "created": 1706732536580,
+      "name": "storage app",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_68bc6d075c054d4281e3e4f89b599b64",
+      "parentId": "wrk_e4c497dd178348ff9d818d0ad182cb68",
+      "modified": 1709585424535,
+      "created": 1707676886945,
+      "url": "http://localhost:8080/products/a9d6316a-d50e-45e0-bde4-5fdcf2e7240f",
+      "name": "delete",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1707676886945,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_8190de71870949cd962be34b9b0d05fd",
+      "parentId": "wrk_e4c497dd178348ff9d818d0ad182cb68",
+      "modified": 1707676755853,
+      "created": 1707676724305,
+      "url": "http://localhost:8080/products/all",
+      "name": "get all products",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1707676724305,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_2b5fdedb16a74a1085ba35e569030471",
+      "parentId": "wrk_e4c497dd178348ff9d818d0ad182cb68",
+      "modified": 1710364341960,
+      "created": 1707676567949,
+      "url": "http://localhost:8080/products/96a3998c-477a-4f71-8dea-5dbfcf464582",
+      "name": "find by id",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1707676567949,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_185c508c6e244f098d6458f6b7b457fa",
+      "parentId": "wrk_e4c497dd178348ff9d818d0ad182cb68",
+      "modified": 1708556531128,
+      "created": 1706732538523,
+      "url": "http://localhost:8080/products/create",
+      "name": "create product",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"test\",\n\t\"article\": \"QQQQQQQQQQQQQ\",\n\t\"description\": \"test\",\n\t\"category\": \"test\",\n\t\"price\": 10,\n\t\"count\": 12\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/2023.5.8"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1706732538523,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_f1e400a62db831dd918f7a13876f1c569b033e23",
+      "parentId": "wrk_e4c497dd178348ff9d818d0ad182cb68",
+      "modified": 1706732536585,
+      "created": 1706732536585,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1706732536585,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_f1e400a62db831dd918f7a13876f1c569b033e23",
+      "parentId": "wrk_e4c497dd178348ff9d818d0ad182cb68",
+      "modified": 1706732536586,
+      "created": 1706732536586,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}
